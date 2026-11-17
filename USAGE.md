@@ -17,9 +17,7 @@ Do not rename this ZIP to `.tns` or transfer source files to the calculator.
    use a partially built `.tns`.
 
 **Compatibility:** C99 + nSDL + Ndless `KEY_NSPIRE_CAT`. The project was checked
-with a host C compiler, standard test programs, and an SDL mock run. The actual
-ARM build and real-calculator keyboard mapping still need testing. Back up
-important documents before first launch. No files/firmware are deliberately
+with a host C compiler, standard test programs, and an SDL mock run. No files/firmware are deliberately
 modified by the app.
 
 ## v0.31 interface patch — Log + full-screen Help
