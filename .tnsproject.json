@@ -1,0 +1,21 @@
+{
+  "name": "NDgraph",
+  "language": "c",
+  "settings": {
+    "build": {
+      "version": 1,
+      "sources": [
+        "ndgraph_ndless.c",
+        "ndgraph_expr.c",
+        "ndgraph_features.c",
+        "complex_math.c"
+      ],
+      "includeDirectories": ["."],
+      "defines": [],
+      "optimization": "O2",
+      "fastMath": false,
+      "common": false,
+      "gnuInline": false
+    }
+  }
+}

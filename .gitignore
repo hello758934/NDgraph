@@ -1,0 +1,17 @@
+# Native build output
+*.o
+*.elf
+*.zehn
+*.tns
+# Host tests / intermediate files
+test_ndgraph
+test_complex
+test_features
+test_angles
+test_help_ui
+test_ui_sim
+*.exe
+*.obj
+*.log
+.DS_Store
+__pycache__/
