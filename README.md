@@ -21,6 +21,30 @@ Press the calculator's **Catalog (open-book)** key to switch between the graph a
 
 ## Install on Windows
 
+### Easy installation (when a compiled release is available)
+
+1. Go to the [NDgraph Releases page](https://github.com/hello758934/NDgraph/releases).
+2. Download the ZIP containing `NDgraph.tns`.
+3. Extract the ZIP on your computer.
+4. Connect your TI-Nspire CX II CAS using USB.
+5. Open [TI-Nspire CX II Connect](https://nspireconnect.ti.com/).
+6. Transfer the extracted `NDgraph.tns` to your calculator.
+7. Open NDgraph with a compatible version of Ndless installed.
+
+**No compiler or TNS Tool required!**
+
+**Note:** Versions v3.1, v2 and v1 do not have zipped .tns files! You will have to manually build it yourself!
+
+
+## Method 2: Build from Source (Optional)
+
+> **Note:** This method is completely optional! (Unless you're downloading versions v3.1, v2 and v1.)
+>
+> If you just want to use NDgraph on your calculator, follow **Method 1: Easy Installation** instead.
+>
+> This method is intended for developers, contributors, or anyone who wants to compile or modify NDgraph themselves.
+
+
 ### 1. What you'll need
 
 - A **TI-Nspire CX II CAS** with compatible [Ndless](https://github.com/ndless-nspire/Ndless) already installed.
