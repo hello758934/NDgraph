@@ -100,6 +100,34 @@ Press **Esc** to exit.
 
 **Warning:** NDgraph is experimental. Successful compilation does not guarantee stability on real calculator hardware. Do not update your calculator OS just to test the app.
 
+## Equation syntax
+
+Open the **Functions** tab with the **Catalog (open-book)** key, select a slot, press **Enter**, type an equation, and press **Enter** again to graph it. Use **Tab** to switch modes (Real → Imaginary → Calculus in v0.4/v0.41). Enter the **full equation**, including `y=`, `x=`, or `z=` where applicable.
+
+| Mode | Syntax | Example | Meaning |
+| --- | --- | --- | --- |
+| Real | `y=expression` or `f(x)=expression` | `y=sin(x)` | Explicit function |
+| Real | `x=constant` | `x=2` | Vertical line |
+| Real | `expression=expression` | `x^2+y^2=4` | Implicit relation |
+| Real | `x=expression;y=expression` | `x=cos(t);y=sin(t)` | Parametric curve (use `t`) |
+| Imaginary | `polynomial=0` | `z^4=1` | Complex polynomial roots |
+| Imaginary | `z=expression` | `z=t*(1+i)` | Complex curve parameterized by real `t` |
+| Imaginary | `expression=expression` | `abs(z)=1` | Complex-plane locus |
+| Calculus (v0.4+) | `y=diff(variable,expression)` | `y=diff(x,x^3)` | Numerical derivative |
+| Calculus (v0.4+) | `y=integral(variable,lower,upper,expression)` | `y=integral(t,0,x,sin(t))` | Numerical definite integral |
+| Calculus (v0.4+) | `y=sum(variable,start,end,expression)` | `y=sum(k,1,5,k*x)` | Finite sum |
+| Calculus (v0.4+) | `y=prod(variable,start,end,expression)` | `y=prod(k,1,4,k)` | Finite product |
+
+**Syntax tips:**
+
+- Use `*` for multiplication (for example, `2*x`) and `^` for powers (for example, `x^2`).
+- Use parentheses to group expressions and function arguments: `sin(x)`, `sqrt(x)`, `abs(z)`.
+- `x` and `y` are real coordinates; `z` is a complex coordinate; `t` is the curve parameter; `i` is the imaginary unit.
+- Constants include `pi` and `e`. `log` and `ln` both denote the natural logarithm.
+- Calculus functions use comma-separated arguments. `int` is an alias for `integral`. Summations and products are limited to **256 terms**.
+- Calculus is **numerical**, not symbolic CAS: results may be approximate. The calculus syntax and mode are **not available in v0.31 or earlier**.
+- For more examples, controls, and limitations, see [USAGE.md](USAGE.md). Its detailed controls describe v0.31.
+
 ## Quick controls
 
 | Key | Action |
