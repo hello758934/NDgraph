@@ -35,19 +35,6 @@ Press the calculator's **Catalog (open-book)** key to switch between the graph a
 **Note:** v0.1, v0.2, and v0.31 now have compiled `.tns` ZIP downloads too! You don't have to build those versions yourself.
 
 
-### Source code downloads (for developers)
-
-The compiled ZIPs above are for installing the app. **Keep the source packages too** if you want to build or modify a specific version.
-
-| Version | Source code ZIP |
-| --- | --- |
-| v0.1 (Complex) | [Complex_Ndless_Windows_Build.zip](https://github.com/user-attachments/files/34992020/Complex_Ndless_Windows_Build.zip) |
-| v0.2 | [NDgraph_Ndless_Windows_Build.zip](https://github.com/user-attachments/files/34992241/NDgraph_Ndless_Windows_Build.zip) |
-| v0.31 | [NDgraph_v0.31_Windows_Build.zip](https://github.com/user-attachments/files/34992542/NDgraph_v0.31_Windows_Build.zip) |
-| v0.4 | [NDgraph_v0.4_Windows_Build.zip](https://github.com/user-attachments/files/35044576/NDgraph_v0.4_Windows_Build.zip) |
-
-**v0.41 source:** The v0.41-specific source archive hasn't been provided here. The v0.4 source package is **not** labeled as v0.41. You can also browse the [repository source](https://github.com/hello758934/NDgraph) for the currently published code.
-
 ## Method 2: Build from Source (Optional)
 
 > **Note:** This method is completely optional for all four compiled versions.
