@@ -1,5 +1,7 @@
 
 # NDgraph v0.31
+**[View all NDgraph release notes](RELEASE_NOTES.md)** — v0.1, v0.2, v0.31, and v0.4.
+
 
 **Real and complex-plane graphing for the TI-Nspire CX II CAS.**  
 Free and open source · MIT licensed · Made by Carlos (2026)
