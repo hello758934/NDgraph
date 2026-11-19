@@ -98,7 +98,7 @@ Try these equations:
 
 Press **Esc** to exit.
 
-**Warning:** NDgraph is experimental. Successful compilation does not guarantee stability on real calculator hardware. Do not update your calculator OS just to test the app.
+And you're done!
 
 ## Quick controls
 
@@ -115,10 +115,6 @@ Press **Esc** to exit.
 | **Esc** | Back / Exit |
 
 The bottom strip displays the event log, with only `H Help` shown as a shortcut.
-
-The Help menu includes the full controls list and the footer:
-
-`made by carlos 2026`
 
 See [USAGE.md](USAGE.md) for more controls, examples, and limitations.
 
